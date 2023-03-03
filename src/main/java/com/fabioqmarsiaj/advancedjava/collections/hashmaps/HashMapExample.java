@@ -6,6 +6,7 @@ public class HashMapExample {
     public static void main(String[] args) {
         HashMap<String, Integer> phonebook = new HashMap<>();
         /*
+            * The data inside a HashMap are NOT ordered.
             ! HashMaps does not allow duplicated entries
             ! so in this case the entry 'Brenda' is overwritten
 
