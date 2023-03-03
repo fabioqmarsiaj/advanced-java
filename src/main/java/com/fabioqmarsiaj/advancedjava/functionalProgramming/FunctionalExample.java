@@ -13,7 +13,7 @@ public class FunctionalExample {
 
         /* ! Allows java to pass code as DATA
          * Which mean 'to treat functionality as method argument'
-         ! Lambdas were introduces to improve this messy code
+         ! Lambdas were introduced to improve this messy code
          */
         greetingMessage.greet("Fabio");
     }
