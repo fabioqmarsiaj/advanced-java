@@ -10,6 +10,8 @@ public class LinkedHashMapExample {
          * initialCapacity – the initial capacity
          * loadFactor – the load factor accessOrder
          * the ordering mode - true for access-order, false for insertion-order
+
+         ! In this case, the 0.75f means that, when the LinkedHashMap reaches 75% of its capacity it will increase the capacity
          */
 
         LinkedHashMap<String, Integer> phonebook = new LinkedHashMap(4, 0.75f, true);
