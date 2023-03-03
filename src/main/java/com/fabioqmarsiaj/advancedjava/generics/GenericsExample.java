@@ -1,4 +1,4 @@
-package com.fabioqmarsiaj.generics;
+package com.fabioqmarsiaj.advancedjava.generics;
 
 import java.util.ArrayList;
 import java.util.List;
