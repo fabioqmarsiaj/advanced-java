@@ -1,4 +1,4 @@
-package com.fabioqmarsiaj.advancedjava.functionalProgramming;
+package com.fabioqmarsiaj.advancedjava.functionalProgramming.oldway;
 
 @FunctionalInterface
 public interface GreetingMessage {

@@ -1,4 +1,4 @@
-package com.fabioqmarsiaj.advancedjava.functionalProgramming;
+package com.fabioqmarsiaj.advancedjava.functionalProgramming.oldway;
 
 public class FunctionalExample {
     public static void main(String[] args) {
