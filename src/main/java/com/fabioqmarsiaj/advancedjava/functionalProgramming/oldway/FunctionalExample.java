@@ -25,5 +25,9 @@ public class FunctionalExample {
         MessagePrinter messagePrinter = () -> System.out.println("Printing a message");
         messagePrinter.print();
 
+        // ! Method reference
+        GreetingMessage greetingMessage3 = System.out::println;
+        greetingMessage3.greet("Teste 2");
+
     }
 }
