@@ -1,4 +1,4 @@
-package com.fabioqmarsiaj.advancedjava.functionalProgramming.oldway;
+package com.fabioqmarsiaj.advancedjava.functionalProgramming;
 
 @FunctionalInterface
 public interface MessagePrinter {
