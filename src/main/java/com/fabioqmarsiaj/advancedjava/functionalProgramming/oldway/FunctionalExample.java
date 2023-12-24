@@ -18,7 +18,10 @@ public class FunctionalExample {
         greetingMessage.greet("Fabio");
 
         GreetingMessage greetingMessage2 = name -> System.out.println(name);
-
         greetingMessage2.greet("Teste");
+
+        MessagePrinter messagePrinter = () -> System.out.println("Printing a message");
+        messagePrinter.print();
+
     }
 }
